@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Hierarchy</title>
+    <!-- Add your stylesheets or link to a CDN if needed -->
+</head>
+<body>
+    <h1>Category Hierarchy hhhh</h1>
+    <div>
+
+    </div>
+    <ul>
+        <% categories.forEach(category => { %>
+            <li>
+                <strong><%= category.hierarchy_path %></strong>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
